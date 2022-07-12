@@ -23,7 +23,7 @@ print("Tax for bread is " + breadTax)
 print("Tax for milk is " + milkTax)
 #########################################################
 
-## Multiple parameters
+## Multiple Parameters
 
 def displayInfo(name, age, country):
     print(name + " is " + str(age) + " years old and is from " + country)
