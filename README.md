@@ -4,11 +4,15 @@ Pesonal projects coded by me and tutorials I followed
 
 ## Contents
 
-- [Python](https://github.com/abhigyanmadhukalya/personal-projects#python)
-- JavaScript
 - HTML and CSS
-- Typescript
+- JavaScript
 - Lua
+- [Python](https://github.com/abhigyanmadhukalya/personal-projects#python)
+- Typescript
+
+## HTML and CSS
+
+- [link-to-bio](https://github.com/abhigyanmadhukalya/link-to-bio.git) - A LinkTree-like page for Social Media using tutorial from [Takuya Matsuyama](https://github.com/craftzdog)
 
 ## Python
 
