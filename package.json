@@ -1,13 +1,10 @@
 {
   "name": "Developement",
-    "version": "1.0.0",
-      "description": "A folder containing all Coding files",
-        "main": "",
-          "scripts": { },
-  "keywords": [],
-    "author": "Abhigyan Madhukalya",
-      "license": "MIT",
-        "devDependencies": {
+  "version": "1.0.0",
+  "description": "A folder containing all Coding files",
+  "author": "Abhigyan Madhukalya",
+  "license": "MIT",
+  "devDependencies": {
     "npm-run-all": "^4.1.5"
   }
 }
