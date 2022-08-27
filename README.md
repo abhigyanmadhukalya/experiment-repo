@@ -9,6 +9,7 @@ Pesonal projects coded by me and tutorials I followed
 - Lua
 - [Python](https://github.com/abhigyanmadhukalya/personal-projects#python)
 - Typescript
+- C
 
 ## HTML and CSS
 
