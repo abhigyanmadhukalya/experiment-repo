@@ -13,5 +13,11 @@ int main() {
   printf("Using variable favNum: %d\n", favNum);
   printf("Using variable favLetter: %c\n", favLetter);
 
+  int a, b, c;
+  a = 3;
+  b = 7;
+  c = a + b;
+  printf("%d, %d, %d", a, b, c);
+
   return 0;
 }
