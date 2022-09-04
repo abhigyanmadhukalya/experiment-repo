@@ -1,4 +1,4 @@
-function printTax(price)
+local function printTax(price)
   local tax = price * 0.21
   print("tax:" .. tax)
 end
@@ -6,7 +6,7 @@ end
 printTax(200) -- 200 * 0.21
 -------------------------------------------------------
 
-function calculateTax(price)
+local function calculateTax(price)
   return price * 0.21
 end
 
@@ -27,7 +27,7 @@ print("Tax for milk is " .. milkTax)
 
 -- Multiple Parameters
 
-function displayInfo(name, age, country)
+local function displayInfo(name, age, country)
   print(name .. " is " .. age .. " years old and is from " .. country)
 end
 

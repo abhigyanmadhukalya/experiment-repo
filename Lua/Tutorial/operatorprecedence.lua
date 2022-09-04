@@ -1,6 +1,6 @@
-a = 20
-b = 10
-c = 15
-d = 5
-e = (a + b) * c / d;  -- ( 30 * 15 ) / 5
-print("Value of (a + b) * c / d is :", e)
+local a = 20
+local b = 10
+local c = 15
+local d = 5
+local result = (a + b) * c / d; -- ( 30 * 15 ) / 5
+print("Value of (a + b) * c / d is :", result)
