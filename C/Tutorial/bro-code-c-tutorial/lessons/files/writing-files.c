@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
 
   FILE *pF = NULL;
   pF = fopen("../../../../../test.txt", "a");

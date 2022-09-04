@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 
-int main() {
+int main()
+{
 
   const int MIN = 1;
   const int MAX = 100;
@@ -16,14 +17,20 @@ int main() {
   // Generate a random num b/w MIN and MAX
   answer = (rand() % MAX) + MIN;
 
-  do {
+  do
+  {
     printf("Enter a guess: ");
     scanf("%d", &guess);
-    if (guess > answer) {
+    if (guess > answer)
+    {
       printf("Too high\n");
-    } else if (guess < answer) {
+    }
+    else if (guess < answer)
+    {
       printf("Too low\n");
-    } else {
+    }
+    else
+    {
       printf("CORRECT\n");
     }
     guesses++;

@@ -1,12 +1,14 @@
 #include <stdio.h>
 
-typedef struct {
+typedef struct
+{
   char name[25];
   char password[12];
   int id;
 } User;
 
-int main() {
+int main()
+{
 
   // Typedef --> reserved keyword that gives an existing datatype a "nickname"
 

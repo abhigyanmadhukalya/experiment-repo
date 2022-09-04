@@ -1,7 +1,8 @@
 #include <ctype.h>
 #include <stdio.h>
 
-int main() {
+int main()
+{
 
   char unit;
   float temp;
@@ -11,17 +12,21 @@ int main() {
 
   unit = toupper(unit);
 
-  switch (unit) {
+  switch (unit)
+  {
   case 'C':
     printf("\nEnter temperature in Celsius(C): ");
     scanf("%f", &temp);
     printf("\nIn what unit do you want the temperature in, Fahrenheit(F) or "
            "Kelvin(K): ");
     scanf(" %c", &unit);
-    if (unit == 'F') {
+    if (unit == 'F')
+    {
       temp = (temp * 9 / 5) + 32;
       printf("\nThe temperature in Fahrenheit(F) is %.1f.", temp);
-    } else {
+    }
+    else
+    {
       temp = temp + 273.15;
       printf("\nThe temperature in Kelvin(K) is %.1f.", temp);
     }
@@ -33,10 +38,13 @@ int main() {
     printf("\nIn what unit do you want the temperature in, Celsius(C) or "
            "Kelvin(K): ");
     scanf(" %c", &unit);
-    if (unit == 'C') {
+    if (unit == 'C')
+    {
       temp = (temp - 32) * 5 / 9;
       printf("\nThe temperature in Celsius(C) is %.1f.", temp);
-    } else {
+    }
+    else
+    {
       temp = (temp - 32) * 5 / 9 + 273.15;
       printf("\nThe temperature in Kelvin(K) is %.1f.", temp);
     }
@@ -48,13 +56,18 @@ int main() {
     printf("\nIn what unit do you want the temperature in, Fahrenheit(F) or "
            "Celsius(C): ");
     scanf(" %c", &unit);
-    if (unit == 'C') {
+    if (unit == 'C')
+    {
       temp = temp - 273.15;
       printf("\nThe temperature in Celsius(C) is %.1f.", temp);
-    } else if (unit == 'F') {
+    }
+    else if (unit == 'F')
+    {
       temp = (temp + 459.67) * 5 / 9;
       printf("\nThe temperature in Fahrenheit(F) is %.1f.", temp);
-    } else {
+    }
+    else
+    {
       printf("%c is not unit of measurement of temperature", unit);
     }
     break;

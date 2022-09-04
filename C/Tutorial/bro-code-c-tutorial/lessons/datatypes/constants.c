@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
 
   // Constants are fixed value which cannot be changed by the program during
   // execution

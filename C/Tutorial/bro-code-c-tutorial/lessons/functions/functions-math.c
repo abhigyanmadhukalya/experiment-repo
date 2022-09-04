@@ -1,7 +1,8 @@
 #include <math.h>
 #include <stdio.h>
 
-int main() {
+int main()
+{
 
   double A = sqrt(9);
   double B = pow(4, 8);

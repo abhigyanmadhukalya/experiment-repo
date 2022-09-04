@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
 
   // Switch statements are a more efficient alternative to using many "else if"
   // statements
@@ -11,7 +12,8 @@ int main() {
   printf("\nEnter your grade: ");
   scanf("%c", &grade);
 
-  switch (grade) {
+  switch (grade)
+  {
   case 'A':
     printf("Perfect!\n");
     break; // Breaks are added to end cases

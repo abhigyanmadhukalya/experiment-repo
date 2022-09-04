@@ -1,13 +1,15 @@
 #include <stdio.h>
 #include <string.h>
 
-struct Player {
+struct Player
+{
 
   char name[12];
   int score;
 };
 
-int main() {
+int main()
+{
 
   // Struct --> collection of related members ("variables")
   //            They can be of diff. data types

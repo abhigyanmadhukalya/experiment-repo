@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
 
   /*
                       2D arrays
@@ -31,8 +32,10 @@ int main() {
   digits[2][2] = 9;
 
   // Printing the elements of a 2D array in a grid
-  for (int i = 0; i < sizeof(digits) / sizeof(digits[0]); i++) {
-    for (int j = 0; j < sizeof(digits[0]) / sizeof(digits[0][0]); j++) {
+  for (int i = 0; i < sizeof(digits) / sizeof(digits[0]); i++)
+  {
+    for (int j = 0; j < sizeof(digits[0]) / sizeof(digits[0][0]); j++)
+    {
       printf("%d ", digits[i][j]);
     }
     printf("\n");

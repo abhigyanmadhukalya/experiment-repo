@@ -2,7 +2,8 @@
 
 void hello(char x[], int y); // Function prototype
 
-int main() {
+int main()
+{
 
   /*
      Function prototypes are declarations w/o a body made before main()
@@ -32,7 +33,8 @@ int main() {
   return 0;
 }
 
-void hello(char x[], int y) {
+void hello(char x[], int y)
+{
   printf("\nHello %s!", x);
   printf("\nYou are %d years old!", y);
 }

@@ -2,7 +2,8 @@
 #include <stdlib.h> // Contains rand and srand functions
 #include <time.h>   // Contains time functions
 
-int main() {
+int main()
+{
 
   // Pseudo Random Numbers --> A set of values or elements that are
   //                           statistically random

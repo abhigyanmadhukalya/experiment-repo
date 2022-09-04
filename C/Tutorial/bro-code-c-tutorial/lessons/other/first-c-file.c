@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
 
   // Creates a grid
   // \n and \t are escape sequences

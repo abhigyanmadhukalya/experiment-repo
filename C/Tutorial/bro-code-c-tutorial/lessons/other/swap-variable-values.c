@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
-int main() {
+int main()
+{
 
   // Variables for switching values for characters
   char x = 'X';

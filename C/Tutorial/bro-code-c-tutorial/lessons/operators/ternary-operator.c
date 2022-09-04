@@ -2,7 +2,8 @@
 
 int findMax(int x, int y) { return (x > y) ? x : y; }
 
-int main() {
+int main()
+{
 
   // Ternary Operator --> shortcut to if/else statements when
   //                      assigning/returning a value

@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
 
   // array --> a data structure that can store many values of the SAME data type
 
@@ -10,7 +11,8 @@ int main() {
   example[0] = 20.0; // Assigning values later on in the code
 
   // Printing arrays with loops
-  for (int i = 0; i < sizeof(prices) / sizeof(prices[0]); i++) {
+  for (int i = 0; i < sizeof(prices) / sizeof(prices[0]); i++)
+  {
     printf("$%.2lf\n", prices[i]);
   }
 

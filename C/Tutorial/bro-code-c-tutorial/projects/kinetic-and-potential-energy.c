@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
 
   double mass;
   double velocity;
@@ -14,7 +15,8 @@ int main() {
       "Do you want to calculate Potential Energy(P) or Kinectic Energy(K): ");
   scanf("%c", &energy);
 
-  switch (energy) {
+  switch (energy)
+  {
   case 'K':
     printf("Mass of the given body(in kg): ");
     scanf("%lf", &mass);

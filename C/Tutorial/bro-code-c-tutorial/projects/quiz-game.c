@@ -1,7 +1,8 @@
 #include <ctype.h>
 #include <stdio.h>
 
-int main() {
+int main()
+{
 
   char questions[][100] = {"1. What did the C language debut?: ",
                            "2. Who is credited with creating C?: ",
@@ -23,12 +24,14 @@ int main() {
 
   printf("Quiz Game\n");
 
-  for (int i = 0; i < numberOfQuestions; i++) {
+  for (int i = 0; i < numberOfQuestions; i++)
+  {
     printf("*****************************\n");
     printf("%s\n", questions[i]);
     printf("*****************************\n");
 
-    for (int j = (i * 4); j < (i * 4) + 4; j++) {
+    for (int j = (i * 4); j < (i * 4) + 4; j++)
+    {
       printf("%s\n", options[j]);
     }
 
@@ -37,10 +40,13 @@ int main() {
 
     guess = toupper(guess);
 
-    if (guess == answers[i]) {
+    if (guess == answers[i])
+    {
       printf("Correct\n");
       score++;
-    } else {
+    }
+    else
+    {
       printf("Incorrect\n");
     }
   }

@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
 
   char operator;
   double num1;
@@ -16,7 +17,8 @@ int main() {
   printf("\nEnter the second number: ");
   scanf("%lf", &num2);
 
-  switch (operator) {
+  switch (operator)
+  {
   case '+':
     result = num1 + num2;
     printf("The result is %.2lf", result);

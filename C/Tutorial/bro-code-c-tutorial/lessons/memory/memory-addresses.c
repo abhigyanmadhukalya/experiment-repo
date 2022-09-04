@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
 
   // Memory --> an array of bytes within RAM (street)
   // Memory Block --> a single unit (byte) within memory, used

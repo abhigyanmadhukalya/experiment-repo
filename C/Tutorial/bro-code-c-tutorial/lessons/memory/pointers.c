@@ -2,7 +2,8 @@
 
 void printAge(int *pAge);
 
-int main() {
+int main()
+{
 
   // Pointers --> a "variable-like" reference that holds a memory address to
   //              another variable, array etc.

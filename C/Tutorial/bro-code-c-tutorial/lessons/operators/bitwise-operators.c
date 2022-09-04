@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
 
   // Bitwise Operators --> special operators used in bit level
   //                       programming.

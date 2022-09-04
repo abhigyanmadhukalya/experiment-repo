@@ -1,16 +1,21 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
 
   FILE *pF = NULL;
   pF = fopen("./poem.txt", "r");
   char buffer[255];
 
-  if (pF == NULL) {
+  if (pF == NULL)
+  {
     printf("File doesn't exist");
-  } else {
+  }
+  else
+  {
     printf("***************************\n");
-    while (fgets(buffer, 255, pF) != NULL) {
+    while (fgets(buffer, 255, pF) != NULL)
+    {
       printf("%s", buffer);
     }
     printf("***************************\n");

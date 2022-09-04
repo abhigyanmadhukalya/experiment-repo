@@ -2,7 +2,8 @@
 
 double square(double x) { return x * x; }
 
-int main() {
+int main()
+{
 
   // Return --> returns a value back to calling function
 

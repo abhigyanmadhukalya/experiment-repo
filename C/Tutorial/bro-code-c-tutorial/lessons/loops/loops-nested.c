@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
 
   // nested loop --> a inside of another loop
 
@@ -17,8 +18,10 @@ int main() {
   printf("Enter a symbol to use: ");
   scanf(" %c", &symbol);
 
-  for (int i = 1; i <= rows; i++) {
-    for (int j = 1; j <= columns; j++) {
+  for (int i = 1; i <= rows; i++)
+  {
+    for (int j = 1; j <= columns; j++)
+    {
       printf("%c", symbol);
     }
     printf("\n");

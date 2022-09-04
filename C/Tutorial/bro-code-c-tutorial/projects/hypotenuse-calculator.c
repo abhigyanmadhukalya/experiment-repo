@@ -1,7 +1,8 @@
 #include <math.h>
 #include <stdio.h>
 
-int main() {
+int main()
+{
 
   double A;
   double B;
