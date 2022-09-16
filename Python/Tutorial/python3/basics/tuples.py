@@ -7,6 +7,7 @@ print(myTuple)
 tuple2 = ("Abhigyan",)
 print(type(tuple2))
 
+# Enumerations, I guess?
 my_tuple = "Abhigyan", 28, "Tokyo"
 name, age, city = my_tuple
 print(name)
