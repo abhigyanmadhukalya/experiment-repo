@@ -30,3 +30,12 @@ rich.print("1.57 rads in degrees is: " + to_deg)
 
 to_rads = str(math.radians(90))
 rich.print("90 degrees in radians is: " + to_rads)
+
+# Examples
+
+a = 10
+b = 93
+c = 72
+
+rich.print(math.fabs(math.exp(2) - 10)) # |e^x - 10|
+rich.print(math.sqrt(a*a + b*b + c*c))
