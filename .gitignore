@@ -7,3 +7,6 @@ SpotifyToYoutubeMP3/dist/
 flask-tutorial/.ipynb_checkpoints
 flask-tutorial/Untitled.ipynb
 target/
+
+# C++ Binaries
+**/*.exe
